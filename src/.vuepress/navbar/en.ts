@@ -4,7 +4,7 @@ export const enNavbar = navbar([
   { text: "首页", icon: "home", link: "/" },
   {
     text: "学习计划",
-    icon: "study",
+    icon: "blog",
     link: "/plan.md",
   },
   {
@@ -43,7 +43,34 @@ export const enNavbar = navbar([
         // ]
       },
 
+
     ]
+  },
+  {
+    text: "面试题",
+    icon: "read",
+    // link: "/interviewQuestion/vue.md",
+    prefix: "/interviewQuestion/",
+    children: [{
+      text: "vue面试题",
+      icon: "vue",
+      link: "vue",
+    },]
+  },
+  {
+    text: "项目实战",
+    icon: "study",
+    prefix: "/project/",
+    // link: "README.md",
+    children: [{
+      text: "项目清单",
+      icon: "article",
+      link: "inventory.md",
+    }, {
+      text: "小兔仙儿",
+      icon: "vue",
+      link: "bunny.md",
+    },]
   },
   // {
   //   text: "Posts",

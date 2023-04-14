@@ -5,11 +5,12 @@ export const enSidebar = sidebar({
     { text: "首页", icon: "home", link: "/" },
     {
       text: "学习计划",
-      icon: "study",
+      icon: "blog",
       link: "/plan.md",
     },
     {
       text: "学习笔记", icon: "note", prefix: "/notes/",
+      activeMatch: "^/notes/",
       collapsible: true,
       children: [
         {
@@ -45,6 +46,35 @@ export const enSidebar = sidebar({
           ]
         },
       ],
+    },
+    {
+      text: "面试题",
+      icon: "read",
+      // link: "/interviewQuestion/vue.md",
+      prefix: "/interviewQuestion/",
+      activeMatch: "^/interviewQuestion/",
+      collapsible: true,
+      children: [{
+        text: "vue面试题",
+        icon: "vue",
+        link: "vue",
+      },]
+    },
+    {
+      text: "项目实战",
+      icon: "study",
+      prefix: "/project/",
+      activeMatch: "^/project/",
+      collapsible: true,
+      children: [{
+        text: "项目清单",
+        icon: "article",
+        link: "inventory.md",
+      }, {
+        text: "小兔仙儿",
+        icon: "vue",
+        link: "bunny.md",
+      },]
     },
     // {
     //   icon: "discover",

@@ -6,7 +6,7 @@ category: "true"
 title: 首页
 # heroImage: /logo.jpeg
 bgImage: /bg1.jpeg
-heroText: 志不可立无可成之事，如无舵之舟，无衔之马，飘荡奔逸，何所底乎
+heroText: 道阻且长,行则将至 行而不辍,未来可期
 # tagline: You can put your slogan here
 heroFullScreen: true
 projects:

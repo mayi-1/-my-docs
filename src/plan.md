@@ -28,9 +28,9 @@ star: true
 
 - [javaScript](./notes/vue2.md) <Badge text="计划中" type="warning" />
 
-- [Vue2](./notes/vue2.md) <Badge text="进行中" type="info" />
+- [Vue2](./notes/vue2.md) <Badge text="完成" type="success" />
 
-- [Vue3](./notes/vue3.md) <Badge text="进行中" type="info" />
+- [Vue3](./notes/vue3.md) <Badge text="计划中" type="warning" />
 
 - [React](./notes/vue2.md) <Badge text="计划中" type="warning" />
 
@@ -40,7 +40,7 @@ star: true
 
 - [小程序](./notes/vue2.md) <Badge text="计划中" type="warning" />
 
-- [node.js](./notes/node.md) <Badge text="进行中" type="info" />
+- [node.js](./notes/node.md) <Badge text="完成" type="success" />
 
 - [next.js](./notes/vue2.md) <Badge text="计划中" type="warning" />
 

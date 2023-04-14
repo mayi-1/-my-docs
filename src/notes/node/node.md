@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-title: node.js
+title: node基础
 icon: nodeJS
 date: 2023-02-03
 description:
@@ -25,7 +25,7 @@ star: true
 
 文件 I/O 是对标准 POSIX 函数的简单封装。 通过 `require('fs')` 使用该模块。 所有的方法都有异步和同步的形式。
 
-### fs.readFile
+### readFile
 
 读取文件内容
 
@@ -93,6 +93,7 @@ console.log("🚀 ~ file: 02-basename.js:4 ~ str", str);
 ```
 
 ### extname
+
 获取路径的扩展名
 
 ```js
